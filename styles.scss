@@ -1,0 +1,41 @@
+$color_1: white;
+$font-family_1: Arial, sans-serif;
+$background-color_1: #333;
+
+body {
+  font-family: $font-family_1;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: $background-color_1;
+  color: $color_1;
+  text-align: center;
+  padding: 1em;
+  h1 {
+    font-family: "Sigmar One", sans-serif;
+  }
+  h2 {
+    font-family: "Mrs Saint Delafield", cursive;
+  }
+}
+.producer-info {
+  background-image: url("PHOTO-2023-12-31-18-22-25.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  .producer-bio {
+    .contact {
+      //color: $color_1;
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 160px;
+    }
+  }
+}
+
+footer {
+  background-color: $background-color_1;
+  color: $color_1;
+  height: 80px;
+}
