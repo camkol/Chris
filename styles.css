@@ -18,15 +18,20 @@ header h2 {
 }
 
 .producer-info {
+  position: relative;
   background-image: url("PHOTO-2023-12-31-18-22-25.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
 }
-.producer-info .producer-bio .contact {
+.producer-info .producer-bio #contactHold {
+  padding-top: 160px;
+}
+.producer-info .producer-bio #contactHold .contact {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 160px;
+  padding: 10px 0;
+  background-color: #333;
 }
 
 footer {

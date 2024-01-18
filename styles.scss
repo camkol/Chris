@@ -20,16 +20,22 @@ header {
   }
 }
 .producer-info {
+  position: relative;
   background-image: url("PHOTO-2023-12-31-18-22-25.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
   .producer-bio {
-    .contact {
-      //color: $color_1;
-      display: flex;
-      justify-content: space-evenly;
+    #contactHold {
       padding-top: 160px;
+
+      .contact {
+        //color: $color_1;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 0;
+        background-color: $background-color_1;
+      }
     }
   }
 }
