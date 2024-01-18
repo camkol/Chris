@@ -4,7 +4,8 @@
 
 1. HTML
 2. CSS
-3. JavaScript
-   - jQuery
+3. SASS
 
 ## Notes
+
+-Added SASS
