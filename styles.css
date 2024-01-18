@@ -1,0 +1,33 @@
+body {
+  background-image: url("PHOTO-2023-12-31-18-22-25.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.producer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.producer-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.producer-bio {
+  max-width: 600px;
+  margin-left: 20px;
+}
