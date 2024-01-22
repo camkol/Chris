@@ -10,3 +10,4 @@
 
 -Added SASS
 -Added font-awesome effects
+-Adjusted styles to the clients request
