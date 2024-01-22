@@ -11,25 +11,30 @@ header {
   padding: 1em;
 }
 header h1 {
-  font-family: "Sigmar One", sans-serif;
-}
-header h2 {
-  font-family: "Mrs Saint Delafield", cursive;
+  font-family: "Mochiy Pop One", sans-serif;
 }
 
 .producer-info {
   position: relative;
-  background-image: url("PHOTO-2023-12-31-18-22-25.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #333;
   height: 800px;
 }
-.producer-info .producer-bio #contactHold {
-  padding-top: 160px;
+.producer-info #contactHolder {
+  background-image: url("PHOTO-2023-12-31-18-22-25.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
-.producer-info .producer-bio #contactHold .contact {
+.producer-info #contactHolder #contactHold {
+  padding-top: 290px;
+}
+.producer-info #contactHolder #contactHold .contact {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   padding: 10px 0;
   background-color: #333;
 }
