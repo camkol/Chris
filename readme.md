@@ -4,10 +4,11 @@
 
 1. HTML
 2. CSS
-3. SASS
+   - SASS
 
 ## Notes
 
--Added SASS
--Added font-awesome effects
--Adjusted styles to the clients request
+- Added SASS
+- Added font-awesome effects
+- Adjusted styles to the clients request
+- Changed font
