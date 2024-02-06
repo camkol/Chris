@@ -11,4 +11,4 @@
 - Added SASS
 - Added font-awesome effects
 - Adjusted styles to the clients request
-- Changed font
+- Changed font with glow by request
