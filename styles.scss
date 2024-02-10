@@ -52,3 +52,15 @@ footer {
   color: $color_1;
   height: 80px;
 }
+@media only screen and (max-width: 500px) {
+  .producer-info {
+    #contactHolder {
+      width: 100%;
+      margin: 0;
+      height: 70%;
+      #contactHold {
+        padding: 0;
+      }
+    }
+  }
+}

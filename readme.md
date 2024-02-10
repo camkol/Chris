@@ -12,3 +12,4 @@
 - Added font-awesome effects
 - Adjusted styles to the clients request
 - Changed font with glow by request
+- improved responsive design
