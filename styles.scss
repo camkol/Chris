@@ -93,11 +93,11 @@ footer {
   }
   26% {
     transform: translateX(0%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: none;
   }
   83% {
     transform: translateX(-0.1%);
-    text-shadow: none;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   100% {
     transform: translateX(-120%);
@@ -112,11 +112,11 @@ footer {
   }
   24% {
     transform: translateX(0.5%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: none;
   }
   82% {
     transform: translateX(-0.2%);
-    text-shadow: none;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   100% {
     transform: translateX(-125%);
@@ -131,11 +131,11 @@ footer {
   }
   22% {
     transform: translateX(0%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: none;
   }
   81% {
     transform: translateX(0%);
-    text-shadow: none;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   100% {
     transform: translateX(-130%);
@@ -150,11 +150,11 @@ footer {
   }
   20% {
     transform: translateX(0%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: none;
   }
   80% {
     transform: translateX(0%);
-    text-shadow: none;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   100% {
     transform: translateX(-135%);
