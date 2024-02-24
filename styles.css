@@ -33,10 +33,7 @@ header h1 {
   width: 80%;
   margin: 0 auto;
 }
-.producer-info #contactHolder #contactHold {
-  padding-top: 290px;
-}
-.producer-info #contactHolder #contactHold .contact {
+.producer-info #contactHold .contact {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -54,7 +51,7 @@ footer {
   .producer-info #contactHolder {
     width: 100%;
     margin: 0;
-    height: 70%;
+    height: 40%;
   }
   .producer-info #contactHolder #contactHold {
     padding: 0;
@@ -65,60 +62,83 @@ footer {
     height: 80%;
   }
 }
+/*76% {
+  transform: translateX(0%);  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 20px rgb(146, 146, 146),
+  0 0 20px rgb(196, 209, 205), 0 0 20px rgb(244, 255, 251);
+}
+79% {
+  transform: none;  
+}*/
 @keyframes deconstructed1 {
   0% {
     transform: translateX(100%);
+    text-shadow: none;
   }
   26% {
     transform: translateX(0%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   83% {
     transform: translateX(-0.1%);
+    text-shadow: none;
   }
   100% {
     transform: translateX(-120%);
+    text-shadow: none;
   }
 }
 @keyframes deconstructed2 {
   0% {
     transform: translateX(100%);
+    text-shadow: none;
   }
   24% {
     transform: translateX(0.5%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   82% {
     transform: translateX(-0.2%);
+    text-shadow: none;
   }
   100% {
     transform: translateX(-125%);
+    text-shadow: none;
   }
 }
 @keyframes deconstructed3 {
   0% {
     transform: translateX(100%);
+    text-shadow: none;
   }
   22% {
     transform: translateX(0%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   81% {
     transform: translateX(0%);
+    text-shadow: none;
   }
   100% {
     transform: translateX(-130%);
+    text-shadow: none;
   }
 }
 @keyframes deconstructed4 {
   0% {
     transform: translateX(100%);
+    text-shadow: none;
   }
   20% {
     transform: translateX(0%);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   80% {
     transform: translateX(0%);
+    text-shadow: none;
   }
   100% {
     transform: translateX(-135%);
+    text-shadow: none;
   }
 }
 #title {
@@ -135,8 +155,8 @@ footer {
   height: 1.05em;
   color: transparent;
   font-family: "Rubik Glitch Pop", system-ui;
-  font-size: 4vw;
-  font-weight: 700;
+  font-size: 6vw;
+  font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1.03em;
 }
