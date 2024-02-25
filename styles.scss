@@ -25,7 +25,7 @@ header {
     color: $color_1;
     font-size: 30px;
     text-align: center;
-    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 20px rgb(146, 146, 146),
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px rgb(146, 146, 146),
       0 0 20px rgb(196, 209, 205), 0 0 20px rgb(244, 255, 251);
   }
 }
@@ -97,7 +97,8 @@ footer {
   }
   83% {
     transform: translateX(-0.1%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px rgb(146, 146, 146),
+      0 0 20px rgb(196, 209, 205), 0 0 20px rgb(244, 255, 251);
   }
   100% {
     transform: translateX(-120%);
@@ -116,7 +117,8 @@ footer {
   }
   82% {
     transform: translateX(-0.2%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px rgb(146, 146, 146),
+      0 0 20px rgb(196, 209, 205), 0 0 20px rgb(244, 255, 251);
   }
   100% {
     transform: translateX(-125%);
@@ -135,7 +137,8 @@ footer {
   }
   81% {
     transform: translateX(0%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px rgb(146, 146, 146),
+      0 0 20px rgb(196, 209, 205), 0 0 20px rgb(244, 255, 251);
   }
   100% {
     transform: translateX(-130%);
@@ -154,7 +157,8 @@ footer {
   }
   80% {
     transform: translateX(0%);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 20px rgb(146, 146, 146),
+      0 0 20px rgb(196, 209, 205), 0 0 20px rgb(244, 255, 251);
   }
   100% {
     transform: translateX(-135%);
@@ -172,6 +176,7 @@ footer {
   overflow: hidden;
 }
 .deconstructed {
+  padding: 15px;
   position: relative;
   margin: auto;
   height: 1.05em;
